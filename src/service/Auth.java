@@ -4,7 +4,7 @@ import entity.User;
 
 public class Auth {
 
-    private User u;
+    private User user;
 
     public void service(){
 
