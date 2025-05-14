@@ -8,6 +8,8 @@ public class AdminService {
     public void service(){
         while (true){
 
+
+
             System.out.println("""
                     0. exit
                     1. sign up
@@ -18,7 +20,7 @@ public class AdminService {
                     return;
                 }
                 case 2 -> {
-                   signUP(); 
+                   signUP();
                 }
                 case 3 -> {
                     signIn();

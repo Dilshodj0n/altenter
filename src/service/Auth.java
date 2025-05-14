@@ -1,7 +1,10 @@
 package service;
 
+import entity.User;
+
 public class Auth {
 
+    private User user;
 
     public void service(){
 
