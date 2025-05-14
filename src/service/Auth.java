@@ -1,8 +1,11 @@
 package service;
 
-public class AdminService {
+public class Auth {
+
+
     public void service(){
-        while (true){
+
+        for (int i = 0; i < 10; i++) {
 
         }
     }
