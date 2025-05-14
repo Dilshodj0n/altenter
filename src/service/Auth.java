@@ -5,6 +5,7 @@ import entity.User;
 public class Auth {
 
     private User ser;
+    private User use;
 
     public void service(){
 
