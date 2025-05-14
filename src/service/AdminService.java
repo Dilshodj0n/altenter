@@ -7,9 +7,9 @@ public class AdminService {
     Scanner intScanner = new Scanner(System.in);
     public void service(){
         while (true){
-<<<<<<< HEAD
 
-=======
+
+
             System.out.println("""
                     0. exit
                     1. sign up
@@ -20,13 +20,12 @@ public class AdminService {
                     return;
                 }
                 case 2 -> {
-                   signUP(); 
+                   signUP();
                 }
                 case 3 -> {
                     signIn();
                 }
             }
->>>>>>> 9dddab476dd761aa2493fcbcf251f7c3fae9774a
         }
     }
 
