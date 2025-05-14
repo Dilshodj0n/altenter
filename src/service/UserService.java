@@ -1,6 +1,6 @@
 package service;
 
-public class Userservice {
+public class UserService {
     public void service(){
 
     }
