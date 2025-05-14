@@ -19,10 +19,10 @@ public class AdminService {
                 case 0 -> {
                     return;
                 }
-                case 2 -> {
+                case 1 -> {
                    signUP();
                 }
-                case 3 -> {
+                case 2 -> {
                     signIn();
                 }
             }
