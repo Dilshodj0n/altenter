@@ -35,4 +35,12 @@ public class Auth {
     public void setUse(User use) {
         this.use = use;
     }
+
+    @Override
+    public String toString() {
+        return "Auth{" +
+                "ser=" + ser +
+                ", use=" + use +
+                '}';
+    }
 }
