@@ -14,4 +14,25 @@ public class Auth {
         }
         System.out.println("Dilshod nima gap?");
     }
+
+    public Auth(User ser, User use) {
+        this.ser = ser;
+        this.use = use;
+    }
+
+    public User getSer() {
+        return ser;
+    }
+
+    public void setSer(User ser) {
+        this.ser = ser;
+    }
+
+    public User getUse() {
+        return use;
+    }
+
+    public void setUse(User use) {
+        this.use = use;
+    }
 }
